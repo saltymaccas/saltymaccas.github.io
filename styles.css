@@ -1,8 +1,19 @@
 body {
   margin: auto;
-  width: 50%;
   padding: 20px;
+  width: 70%;
+  max-width: 600px;
   background-color: #607744;
   color: #ccdad1;
   font-family: "IBM Plex Sans";
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("res/yotsuba_the_fireworks_display_24.jpg");
+  background-size: cover;
+  background-position: 90% 90%;
+  padding: 40px;
+  border-radius: 0px;
 }
