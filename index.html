@@ -19,11 +19,38 @@
       </span>
     </header>
 
+    <div id="joke-rce-message">
+      <style>
+        #rce-message-container {
+          border: 1px solid;
+          border-color: #d97979;
+          position: absolute;
+          padding: 10px;
+          top: 20px;
+          left: 20px;
+          font-weight: bold;
+          color: #d97979;
+          font-size: 1rem;
+        }
+        </style>
+        <div id="rce-message-container"></div>
+        <script>
+          message = `I just achieved Remote
+              Code Execution in your Browser. 
+
+              Get hacked lol :D
+
+              I'll even show you proof:
+              7*7 = ${7*7}`
+          document.getElementById('rce-message-container').innerText = message
+        </script>
+    </div>
+
     <main>
       <article>
         <div id="content">
           <p>
-            <b> 19yr old student in uni who's brains been fried from linux</b>
+            <b> 20yr old student in uni who's brains been fried from linux</b>
           </p>
         </div>
         <div>
