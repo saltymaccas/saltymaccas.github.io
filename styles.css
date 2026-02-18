@@ -8,6 +8,8 @@ body {
   font-family: "IBM Plex Sans";
 }
 
+
+
 header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -16,4 +18,17 @@ header {
   background-position: 90% 90%;
   padding: 40px;
   border-radius: 0px;
+}
+
+
+#rce-message-area { 
+          #border: 1px solid;
+          #border-color: #d97979;
+          padding: 10px;
+          top: 20px;
+          left: 20px;
+          font-weight: normal;
+          #color: #d97979;
+          #font-size: 1rem;
+          border-radius: 5px;
 }
