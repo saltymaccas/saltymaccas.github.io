@@ -12,5 +12,5 @@ async function select_saying() {
   return selected_saying
 }
 
-select_saying().then(s => document.getElementById("quote-area").innerText = s)
+select_saying().then(s => document.getElementById("quote-area").innerText = s.trimStart())
 

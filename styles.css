@@ -20,6 +20,13 @@ header {
   border-radius: 0px;
 }
 
+#quote-area {
+  font-weight: bold;
+  #text-decoration: underline;
+  border-left: 5px solid grey;
+  padding-left: 5px;
+}
+
 
 #rce-message-area { 
           #border: 1px solid;
