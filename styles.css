@@ -22,20 +22,20 @@ header {
 
 #quote-area {
   font-weight: bold;
-  #text-decoration: underline;
+  /* text-decoration: underline; */
   border-left: 5px solid grey;
   padding-left: 5px;
 }
 
 
-#rce-message-area { 
-          #border: 1px solid;
-          #border-color: #d97979;
+#rce-message-area {
+          /* border: 1px solid; */
+          /* border-color: #d97979; */
           padding: 10px;
           top: 20px;
           left: 20px;
           font-weight: normal;
-          #color: #d97979;
-          #font-size: 1rem;
+          /* color: #d97979; */
+          /* font-size: 1rem; */
           border-radius: 5px;
 }
